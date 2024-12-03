@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "Karla";
+    src: url(../font/Karla/Karla-Italic-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    font-family: "Karla";
+
+}
+body{
+    margin: 0   40px;;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 103px;
+    
+
+    
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 60px;
+}
+.coll1,.coll2,.coll3,.coll4,.coll5{
+    
+    .desc .ld{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .sd{
+        margin-bottom: 40px;
+    }
+
+    & a:hover{
+        
+        opacity: 0.5;
+    }
+
+    .bigy article{
+        background-size: contain;
+        width: 100%;
+        height: 731px;
+        margin-bottom: 23px;
+    }
+
+
+    .small{
+
+        display: grid;
+        grid-template: repeat(2,1fr) / repeat(3,1fr);
+        gap: 0 20px;
+        
+
+        .left,.left2,.mid,.mid2,.right,.right2{
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 616px;
+            margin-bottom: 23px;
+        }
+    }
+}    
+.coll1{
+
+    .bigy article{
+        background-image: url(../img/1.png);
+    }
+
+    .small{
+        .left{
+            background-image: url(../img/1a.png);
+        }
+        .mid{
+            background-image: url(../img/1b.png);
+        }
+        .right{
+            background-image: url(../img/1c.png);
+        }
+        .left2{
+            background-image: url(../img/1d.png);
+        }
+        .mid2{
+            background-image: url(../img/1e.png);
+        }
+        .right2{
+            background-image: url(../img/1f.png);
+        }
+    }
+
+}
+.coll2{
+
+    .bigy article{
+        background-image: url(../img/2.png);
+    }
+
+    .small{
+        .left{
+            background-image: url(../img/2a.png);
+        }
+        .mid{
+            background-image: url(../img/2b.png);
+        }
+        .right{
+            background-image: url(../img/2c.png);
+        }
+        .left2{
+            background-image: url(../img/2d.png);
+        }
+        .mid2{
+            background-image: url(../img/2e.png);
+        }
+        .right2{
+            background-image: url(../img/2f.png);
+        }
+    }
+
+}
+.coll3{
+
+    .bigy article{
+        background-image: url(../img/3.png);
+    }
+
+    .small{
+        .left{
+            background-image: url(../img/3a.png);
+        }
+        .mid{
+            background-image: url(../img/3b.png);
+        }
+        .right{
+            background-image: url(../img/3c.png);
+        }
+        .left2{
+            background-image: url(../img/3d.png);
+        }
+        .mid2{
+            background-image: url(../img/3e.png);
+        }
+        .right2{
+            background-image: url(../img/3f.png);
+        }
+    }
+
+}
+.coll4{
+
+    .bigy article{
+        background-image: url(../img/4.png);
+    }
+
+    .small{
+        .left{
+            background-image: url(../img/4a.png);
+        }
+        .mid{
+            background-image: url(../img/4b.png);
+        }
+        .right{
+            background-image: url(../img/4c.png);
+        }
+        .left2{
+            background-image: url(../img/4d.png);
+        }
+        .mid2{
+            background-image: url(../img/4e.png);
+        }
+        .right2{
+            background-image: url(../img/4f.png);
+        }
+    }
+
+}
+.coll5{
+
+
+    margin-bottom: 60px;
+    .bigy article{
+        background-image: url(../img/5.png);
+    }
+
+    .small{
+
+        grid-template: repeat(1,1fr) / repeat(3,1fr);
+
+        .left{
+            background-image: url(../img/5a.png);
+        }
+        .mid{
+            background-image: url(../img/5b.png);
+        }
+        .right{
+            background-image: url(../img/5c.png);
+        }
+
+    }
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 155px;
+    
+    & h4{
+        margin-bottom: 40px;
+    }
+
+    .desi{
+        width: 433px;
+        p{
+            width: 377px;
+            font-size: 1.2rem;
+            
+        }
+    }
+
+    .cont{
+        width: 216px;
+    }
+
+    .news{
+        width: 433px;
+    }
+
+    .find{
+        width: 216px;
+    }
+}
+
+
+
+
